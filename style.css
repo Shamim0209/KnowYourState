@@ -85,3 +85,11 @@ a {
 a:visited {
   color: rgb(46, 22, 167);
 }
+.loading{
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+.loading >img{
+  width: 150px;
+}
