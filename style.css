@@ -61,6 +61,23 @@ figcaption {
     grid-template-columns: auto;
     background: #a3d8ed;
   }
+  .food {
+    float: left;
+    width: 20%;
+    padding: 1px;
+    height: 100px;
+    max-height: 750%;
+    /* max-width: 100%; */
+  }
+  #food-head {
+    width: 100%;
+  }
+
+  #food-head::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 a {
   color: #0e0d0d;
