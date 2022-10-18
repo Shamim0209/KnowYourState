@@ -57,6 +57,7 @@ figcaption {
   .column2 {
     width: 100%;
   }
+  
   .grid-container {
     grid-template-columns: auto;
     background: #a3d8ed;
@@ -79,15 +80,20 @@ figcaption {
     clear: both;
   }
 }
+@media only screen and (orientation: landscape) and(max-width:768px) {
+  .column1{
+    width:30%;
+  }
+  .column2{
+    width:70%;
+  }
+
+
+}
 a {
   color: #0e0d0d;
 }
 a:visited {
   color: rgb(46, 22, 167);
 }
-.loading{
-  width: auto;
-  margin: auto;
-  text-align: center;
-  
-}
+
