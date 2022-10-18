@@ -57,7 +57,7 @@ figcaption {
   .column2 {
     width: 100%;
   }
-  
+
   .grid-container {
     grid-template-columns: auto;
     background: #a3d8ed;
@@ -86,6 +86,9 @@ figcaption {
   }
   .column2{
     width:70%;
+  }
+  main{
+    gap: 10px;
   }
 
 
