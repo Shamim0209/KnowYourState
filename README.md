@@ -1,2 +1,2 @@
 use the link given below to see preview of the project...
-https://shamim0209.github.io/Project1/
+https://shamim0209.github.io/KnowYourState/
