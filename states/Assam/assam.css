@@ -30,6 +30,11 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
+footer{
+  background-color: #354253;
+  color: aliceblue;
+  text-align: center;
+}
 @media only screen and (max-width: 768px) {
     body{
         font-size: 1em;
@@ -60,7 +65,7 @@ body{
       clear: both;
     }
 footer{
-    background-color: #2f343f;
+    background-color: #14171b;
     color: aliceblue;
 }
 }
