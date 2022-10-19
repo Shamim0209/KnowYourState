@@ -20,8 +20,9 @@
 }
 
 body {
-  font-size: 1.25em;
+  font-size: 1.5em;
   background-color: #dadacb;
+  text-align: justify;
 }
 img {
   max-width: 100%;
@@ -98,5 +99,10 @@ a {
 }
 a:visited {
   color: rgb(46, 22, 167);
+
+}
+footer{
+  background-color: #2f343f;
+  color: aliceblue;
 }
 

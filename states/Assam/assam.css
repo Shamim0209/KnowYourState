@@ -1,0 +1,12 @@
+.foodImages{
+    float: right;
+    border: 2px dotted rgb(107, 104, 104);
+  margin: 0px 0px 15px 20px;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+footer{
+    background-color: #2f343f;
+    color: aliceblue;
+}
