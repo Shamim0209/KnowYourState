@@ -1,12 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  .food {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height: 200px;
+    max-height: 100%;
+    /* max-width: 100%; */
+  }
+  #food-head {
+    width: 100%;
+  }
+
+  #food-head::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 .foodImages{
     float: right;
+    width: 300px;
     border: 2px dotted rgb(107, 104, 104);
-  margin: 0px 0px 15px 20px;
+    margin: 0px 0px 15px 20px;
 }
 body{
+    font-size: 1.5em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 1em;
+        /* text-justify:none; */
+    }
+    .foodImages{
+        float: right;
+        width: 200px;
+        border: 1px dotted rgb(107, 104, 104);
+        margin: 0px 0px 15px 20px;
+    }
+
+    .food {
+      float: left;
+      width: 20%;
+      padding: 1px;
+      height: 100px;
+      max-height: 750%;
+      /* max-width: 100%; */
+    }
+    #food-head {
+      width: 100%;
+    }
+
+    #food-head::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 footer{
     background-color: #2f343f;
     color: aliceblue;
+}
 }
