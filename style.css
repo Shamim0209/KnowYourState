@@ -52,6 +52,11 @@ figcaption {
   float: left;
   gap: 20px;
 }
+.copyright {
+  background-color: #344153;
+  color: aliceblue;
+  text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
   .column1 {
@@ -116,10 +121,7 @@ a {
 a:visited {
   color: rgb(46, 22, 167);
 }
-footer {
-  background-color: #2f343f;
-  color: aliceblue;
-}
+
 .loading {
   width: auto;
   height: auto;
